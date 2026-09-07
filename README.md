@@ -118,10 +118,23 @@
 
 ## 📊 GitHub 数据
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=q93304989-bit&show_icons=true&hide_border=true&bg_color=135,0b1026,1b2a6b,6d28d9&title_color=ffffff&text_color=e2e8f0&icon_color=a78bfa" alt="GitHub Stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs?username=q93304989-bit&layout=compact&langs_count=6&hide_border=true&bg_color=135,0b1026,1b2a6b,6d28d9&title_color=ffffff&text_color=e2e8f0" alt="Top Languages" />
+<p>
+  <img src="https://img.shields.io/github/followers/q93304989-bit?style=for-the-badge&color=1b2a6b&labelColor=0b1026&logo=github&logoColor=22d3ee" alt="Followers" />
+  <img src="https://img.shields.io/github/stars/q93304989-bit/github-trending-chat?style=for-the-badge&label=github-trending-chat&color=1b2a6b&labelColor=0b1026&logo=github&logoColor=22d3ee" alt="github-trending-chat stars" />
+  <img src="https://img.shields.io/github/stars/q93304989-bit/codex-skill-manager?style=for-the-badge&label=codex-skill-manager&color=1b2a6b&labelColor=0b1026&logo=github&logoColor=22d3ee" alt="codex-skill-manager stars" />
+  <img src="https://img.shields.io/github/stars/q93304989-bit/dsh-super-learning-architect?style=for-the-badge&label=dsh-super-learning-architect&color=1b2a6b&labelColor=0b1026&logo=github&logoColor=22d3ee" alt="dsh stars" />
 </p>
+
+<p>
+  <img src="https://img.shields.io/github/last-commit/q93304989-bit/github-trending-chat?style=for-the-badge&label=last%20commit&color=6d28d9&labelColor=0b1026&logo=github&logoColor=a78bfa" alt="Last Commit" />
+  <img src="https://img.shields.io/github/repo-size/q93304989-bit/github-trending-chat?style=for-the-badge&color=6d28d9&labelColor=0b1026&logo=github&logoColor=a78bfa" alt="Repo Size" />
+</p>
+
+### 提交贡献图
+
+<div align="center">
+  <img src="https://ghchart.rshah.org/7c3aed/q93304989-bit" alt="Contribution Graph" width="840" />
+</div>
 
 ---
 
