@@ -29,7 +29,7 @@
 
   <text x="60" y="108" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="62" font-weight="700" fill="#ffffff" letter-spacing="2">ZZQ3208</text>
 
-  <text x="62" y="150" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="19" font-weight="400" fill="#a5b4fc" letter-spacing="1">AI Agent Tooling · Automation · Developer Experience</text>
+  <text x="62" y="150" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="19" font-weight="400" fill="#a5b4fc" letter-spacing="1">AI Agent Tooling · Multimodal Apps · Automation</text>
 
   <rect x="60" y="172" width="300" height="4" rx="2" fill="url(#accent)"/>
 
@@ -40,17 +40,38 @@
 
 ## 👋 关于我
 
-中文技术开发者，关注 **AI Agent 生态与编码代理工具链**，喜欢做那种「小而完整、装完就能用」的工具。
+中文技术开发者，关注 **AI Agent 生态与多模态应用**，喜欢做那种「小而完整、装完就能用」的工具 —— 不需要 GPU，不需要部署，双击就能跑起来。
 
-- 🔭 **正在做**：GitHub 日榜每日自动归档 —— 每天 09:00 抓榜 → AI 逐仓库简评 → 归档进仓库并推送 → 邮件送达
-- 🛠 **常用技术栈**：JavaScript / Node.js · C# / .NET 8 · YAML（Agent 预设与 Skills）
-- 🤖 **关注方向**：编码代理（Codex / Claude Code 等）的技能与 harness 编排、Agent 记忆与长期档案机制
+- 🔭 **正在做**：Agnes Studio（多模态桌面工具）· GitHub 日榜每日自动归档（每天 09:00 抓榜 → AI 简评 → 归档推送 → 邮件送达）
+- 🛠 **常用技术栈**：Python · JavaScript / Node.js · C# / .NET 8 · YAML（Agent 预设与 Skills）
+- 🤖 **关注方向**：编码代理的技能与 harness 编排、Agent 记忆与长期档案机制、多模态生成 API 的工程化封装
 - 🌱 **在折腾**：把重复的信息整理工作交给自动化，让每天只处理「值得判断」的部分
 - 📫 **联系方式**：747055153@qq.com
 
 ---
 
 ## 🚀 项目
+
+### [AgnesStudio](https://github.com/q93304989-bit/AgnesStudio)
+
+![Python](https://img.shields.io/badge/python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white)
+![GUI](https://img.shields.io/badge/GUI-CustomTkinter-2b6cb0?style=flat-square)
+![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey?style=flat-square)
+![License](https://img.shields.io/badge/license-AGPL--3.0-blue?style=flat-square)
+
+**给学生和初学者的多模态桌面练手工具 —— 文生图、图生图、文生视频、图参考视频四合一。**
+
+它不打算和 Sora、Runway 同台竞技。定位很清楚：把当前能免费或低成本接入的 Agnes 多模态 API 装进一个本地 GUI，让人用一杯咖啡的时间跑通「文本 → token → 异步任务 → 轮询 → 渲染」这条完整链路，改提示词、加参考图、调尺寸、换模型，亲手摸一遍多模态智能体的工作流。
+
+- 🎨 **图片**：文生图 / 图生图，最多 5 张参考图，7 种尺寸
+- 🎬 **视频**：文生视频 / 图参考视频，5 档时长 × 6 种画幅，1.5 秒轮询不阻塞界面
+- 🕘 **历史**：本地数据库落盘（重启不丢），按类型筛选 + 关键词搜索，**一键回填参数**重跑
+- ⚙️ **设置**：密钥一键测试连接、图床（GitHub 公开仓库免费 / S.EE）、网络模式（直连优先，失败自动换代理）、明暗双主题
+- 📦 **分发**：PyInstaller 单文件 EXE，机器上没装 Python 也能跑
+
+> 不需要 GPU，不需要懂 Diffusion —— 会装依赖 + 拿一个 API Key 就能跑起来。
+
+---
 
 ### [github-trending-chat](https://github.com/q93304989-bit/github-trending-chat)
 
@@ -64,7 +85,7 @@
 
 配套一条每日自动化流水线：抓取榜单 → 解析 → 生成 markdown → AI 给每个仓库写一句中文简评 → 按 `年 / 月 / 日` 归档 → 推送 GitHub → 发邮件通知。
 
-> 📁 归档成果： [历史github日榜汇总](https://github.com/q93304989-bit/github-trending-chat/tree/main/%E5%8E%86%E5%8F%B2github%E6%97%A5%E6%A6%9C%E6%B1%87%E6%80%BB)
+> 📁 归档成果： [历史github日榜汇总](https://github.com/q93304989-bit/github-trending-chat/tree/main/%E5%8E%86%E5%8F%B2github%E6%97%A5%E6%A6%9C%E6%B1%87%E6%80%BB) —— 每天新增一份，按 年 / 月 / 日 归档
 
 ---
 
@@ -120,6 +141,7 @@
 
 <p>
   <img src="https://img.shields.io/github/followers/q93304989-bit?style=for-the-badge&color=1b2a6b&labelColor=0b1026&logo=github&logoColor=22d3ee" alt="Followers" />
+  <img src="https://img.shields.io/github/stars/q93304989-bit/AgnesStudio?style=for-the-badge&label=AgnesStudio&color=1b2a6b&labelColor=0b1026&logo=github&logoColor=22d3ee" alt="AgnesStudio stars" />
   <img src="https://img.shields.io/github/stars/q93304989-bit/github-trending-chat?style=for-the-badge&label=github-trending-chat&color=1b2a6b&labelColor=0b1026&logo=github&logoColor=22d3ee" alt="github-trending-chat stars" />
   <img src="https://img.shields.io/github/stars/q93304989-bit/codex-skill-manager?style=for-the-badge&label=codex-skill-manager&color=1b2a6b&labelColor=0b1026&logo=github&logoColor=22d3ee" alt="codex-skill-manager stars" />
   <img src="https://img.shields.io/github/stars/q93304989-bit/dsh-super-learning-architect?style=for-the-badge&label=dsh-super-learning-architect&color=1b2a6b&labelColor=0b1026&logo=github&logoColor=22d3ee" alt="dsh stars" />
@@ -141,6 +163,7 @@
 ## 🧰 技术栈
 
 <p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
   <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" />
@@ -155,6 +178,6 @@
 
 <div align="center">
 
-由 [github-trending-chat](https://github.com/q93304989-bit/github-trending-chat) 的每日归档流水线持续更新 · 最后更新 2026-09-07
+由 [github-trending-chat](https://github.com/q93304989-bit/github-trending-chat) 的每日归档流水线持续更新 · 最后更新 2026-09-09
 
 </div>
