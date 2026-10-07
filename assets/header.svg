@@ -1,0 +1,59 @@
+<svg width="900" height="220" viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="q93304989-bit — AI Agent Tooling, Multimodal Apps, Automation">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1026"/>
+      <stop offset="52%" stop-color="#1b2a6b"/>
+      <stop offset="100%" stop-color="#6d28d9"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#060a1c"/>
+      <stop offset="100%" stop-color="#0e1330"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.86" cy="0.10" r="0.70">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.36"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0.10" cy="0.95" r="0.65">
+      <stop offset="0%" stop-color="#a78bfa" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="900" height="220" fill="url(#bg)"/>
+  <rect width="900" height="220" fill="url(#glow)"/>
+  <rect width="900" height="220" fill="url(#glow2)"/>
+
+  <g stroke="#ffffff" stroke-opacity="0.055" stroke-width="1">
+    <path d="M120 0 V220 M240 0 V220 M360 0 V220 M480 0 V220 M600 0 V220 M720 0 V220 M840 0 V220"/>
+    <path d="M0 60 H900 M0 120 H900 M0 180 H900"/>
+  </g>
+
+  <rect x="0" y="0" width="6" height="220" fill="url(#accent)"/>
+
+  <text x="62" y="94" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="54" font-weight="700" fill="#ffffff" letter-spacing="0.5">q93304989-bit</text>
+
+  <text x="64" y="128" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="17" font-weight="400" fill="#a5b4fc" letter-spacing="0.8">AI Agent Tooling · Multimodal Apps · Automation</text>
+
+  <rect x="64" y="146" width="286" height="4" rx="2" fill="url(#accent)"/>
+
+  <text x="64" y="180" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="14" font-weight="400" fill="#7c8db5" letter-spacing="0.3">做小而完整、双击就能跑的本地工具</text>
+
+  <text x="64" y="202" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="13" font-weight="400" fill="#5b6b96" letter-spacing="0.3">Python · JavaScript · C#/.NET · Windows 桌面优先</text>
+
+  <g>
+    <rect x="556" y="42" width="292" height="138" rx="12" fill="url(#card)" stroke="#22d3ee" stroke-opacity="0.30" stroke-width="1"/>
+    <circle cx="576" cy="62" r="4" fill="#ff5f57"/>
+    <circle cx="590" cy="62" r="4" fill="#febc2e"/>
+    <circle cx="604" cy="62" r="4" fill="#28c840"/>
+    <path d="M556 78 H848" stroke="#ffffff" stroke-opacity="0.09" stroke-width="1"/>
+
+    <text x="576" y="100" font-family="'Cascadia Mono','Consolas','SFMono-Regular',Menlo,monospace" font-size="12" fill="#6ee7ff">$ stillroom run</text>
+    <text x="576" y="119" font-family="'Cascadia Mono','Consolas','SFMono-Regular',Menlo,monospace" font-size="12" fill="#7c8db5">&#9500; 理解需求   <tspan fill="#a78bfa">ok</tspan></text>
+    <text x="576" y="138" font-family="'Cascadia Mono','Consolas','SFMono-Regular',Menlo,monospace" font-size="12" fill="#7c8db5">&#9500; 找参考     <tspan fill="#a78bfa">3 条</tspan></text>
+    <text x="576" y="157" font-family="'Cascadia Mono','Consolas','SFMono-Regular',Menlo,monospace" font-size="12" fill="#7c8db5">&#9492; 评估       <tspan fill="#22d3ee">0.82 达标</tspan></text>
+  </g>
+</svg>
