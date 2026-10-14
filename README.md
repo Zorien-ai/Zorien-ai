@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/header.svg" alt="q93304989-bit — AI Agent Tooling · Multimodal Apps · Automation" width="100%" />
+<img src="./assets/header.svg" alt="ZZQZZQ — AI Agent Tooling · Multimodal Apps · Automation" width="100%" />
 
 <br />
 
