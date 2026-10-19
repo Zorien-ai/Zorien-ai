@@ -71,6 +71,7 @@
 
 | 项目 | 一句话 | 技术栈 |
 | :-- | :-- | :-- |
+| **[qianke-engine](https://github.com/q93304989-bit/qianke-engine)** | 电商数据与知识双轨问答引擎：双轨检索 + Text2SQL + 防幻觉审查；附 79 秒宣传片 | Python · FastAPI · Vue 3 · pgvector |
 | **[Stillroom](https://github.com/q93304989-bit/stillroom)** | 判断优先的本地多模态生成工作台：说完一句，代码跑完六步流水线 | Python · PySide6 |
 | **[github-trending-chat](https://github.com/q93304989-bit/github-trending-chat)** | 把 GitHub Trending 装进一台复古 CRT 终端，外带每日自动归档 | Node.js（零依赖） |
 | **[codex-skill-manager](https://github.com/q93304989-bit/codex-skill-manager)** | 三列窗口管理 Codex 技能在哪生效，选中即双向搬移 | C# · .NET 8 |
@@ -105,6 +106,23 @@
 - 📦 **onedir 绿色版**：双击即用，不需要装 Python
 
 > 原名 Agnes Studio，2026-09-26 更名，原因与迁移说明见仓库 CHANGELOG。
+
+---
+
+### 🎬 千客引擎 · 让电商数据听懂中国话
+
+[![千客引擎宣传片 · 79 秒](https://raw.githubusercontent.com/q93304989-bit/qianke-engine/main/docs/assets/promo-cover.jpg)](https://www.bilibili.com/video/BV1g9nJ6hEZ9)
+
+**面向电商的「数据 + 知识」双轨问答引擎。** 把订单 CSV 和业务规则 Markdown 拖进来，系统自动清洗、识别字段、构建用户画像与文档索引；业务人员用一句中文提问，就能拿到**带引用来源**的答案。
+
+- 🧭 **意图路由**：知识问答走混合检索（BGE-M3 稠密+稀疏 + BM25 → RRF → Cross-Encoder 精排），统计问题走 Text2SQL
+- 📚 **双轨检索**：画像池与文档池分池召回，避免几千条画像把 SOP / 口径挤出上下文
+- 🛡 **防幻觉**：关键结论必须带 `[来源N]`；后置 answer guard 拦截预测/越界内容，宁可拒答也不编造
+- 🔒 **多租户 + 私有化**：企业独立物理库、字段级脱敏、docker compose 私有化部署
+- 📊 **可回归评测**：33 道业务黄金题，LLM-as-a-Judge 通过率 **97.0%**，内置 85% CI 门禁
+- 🎬 **79 秒宣传片**：[B 站观看](https://www.bilibili.com/video/BV1g9nJ6hEZ9)（6 段 AI 空镜 + 真实产品录屏 + 配音字幕）
+
+> 技术栈：FastAPI · PostgreSQL + pgvector · BGE-M3 · DeepSeek · Vue 3；Apache-2.0 开源。
 
 ---
 
@@ -187,6 +205,7 @@ Codex 会写出 `*.canvas.tsx`，但没有任何东西能打开它 —— 因为
   <img src="https://img.shields.io/github/stars/q93304989-bit/AgnesStudio?style=for-the-badge&label=AgnesStudio&color=1b2a6b&labelColor=0b1026&logo=github&logoColor=22d3ee" alt="AgnesStudio stars" />
   <img src="https://img.shields.io/github/stars/q93304989-bit/github-trending-chat?style=for-the-badge&label=github-trending-chat&color=1b2a6b&labelColor=0b1026&logo=github&logoColor=22d3ee" alt="github-trending-chat stars" />
   <img src="https://img.shields.io/github/stars/q93304989-bit/jev-lab?style=for-the-badge&label=jev-lab&color=1b2a6b&labelColor=0b1026&logo=github&logoColor=22d3ee" alt="jev-lab stars" />
+  <img src="https://img.shields.io/github/stars/q93304989-bit/qianke-engine?style=for-the-badge&label=qianke-engine&color=1b2a6b&labelColor=0b1026&logo=github&logoColor=22d3ee" alt="qianke-engine stars" />
 </p>
 
 ### 提交贡献图
@@ -214,6 +233,6 @@ Codex 会写出 `*.canvas.tsx`，但没有任何东西能打开它 —— 因为
 
 由 [github-trending-chat](https://github.com/q93304989-bit/github-trending-chat) 的每日归档流水线持续更新
 
-<sub>README 最后整理于 2026-10-07</sub>
+<sub>README 最后整理于 2026-10-19</sub>
 
 </div>
