@@ -1,8 +1,6 @@
 <div align="center">
 
-<img src="./assets/header.svg" alt="ZZQZZQ — AI Agent Tooling · Multimodal Apps · Automation" width="100%" />
-
-<br />
+<h1 align="center">𝐙𝐨𝐫𝐢𝐞𝐧 𝐙𝐡𝐚𝐨</h1>
 
 <img src="https://img.shields.io/github/followers/q93304989-bit?style=for-the-badge&label=Followers&labelColor=0b1026&color=1b2a6b&logo=github&logoColor=22d3ee" alt="Followers" />
 <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fq93304989-bit&query=%24.public_repos&label=Public%20Repos&style=for-the-badge&labelColor=0b1026&color=1b2a6b&logo=github&logoColor=22d3ee" alt="Public Repos" />
